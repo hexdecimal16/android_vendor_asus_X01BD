@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2017 Qualcomm Technologies, Inc.
+  Copyright (c) 2016 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -79,30 +79,37 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>gc5025_ofilm_13m_common</ISPCommon>
-      <PostProc>gc5025_ofilm_13m_postproc</PostProc>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="FLASH">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="ZOOM_UPSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_us_chromatix</CPPSnapshot>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="ZOOM_DOWNSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_ds_chromatix</CPPSnapshot>
+      <ISPCommon>ov2680_common</ISPCommon>
+      <PostProc>ov2680_postproc</PostProc>
+      <CPPPreview>ov2680_cpp_preview</CPPPreview>
+      <CPPSnapshot>ov2680_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>ov2680_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>gc5025_ofilm_13m_snapshot</ISPPreview>
-      <ISPSnapshot>gc5025_ofilm_13m_snapshot</ISPSnapshot>
-      <ISPVideo>gc5025_ofilm_13m_video_full</ISPVideo>
-      <CPPPreview>gc5025_ofilm_13m_cpp_snapshot</CPPPreview>
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>gc5025_ofilm_13m_cpp_video_full</CPPVideo>
-      <CPPLiveshot>gc5025_ofilm_13m_cpp_snapshot</CPPLiveshot>
-      <A3Preview>gc5025_ofilm_13m_zsl_preview_bu64297</A3Preview>
-      <A3Video>gc5025_ofilm_13m_zsl_video_bu64297</A3Video>
+      <ISPPreview>ov2680_snapshot</ISPPreview>
+      <ISPSnapshot>ov2680_snapshot</ISPSnapshot>
+      <ISPVideo>ov2680_default_video</ISPVideo>
+      <CPPVideo>ov2680_cpp_video</CPPVideo>
+      <A3Preview>ov2680_zsl_preview</A3Preview>
+      <A3Video>ov2680_a3_default_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1">
+      <ISPPreview>ov2680_preview</ISPPreview>
+      <ISPSnapshot>ov2680_preview</ISPSnapshot>
+      <ISPVideo>ov2680_default_video</ISPVideo>
+      <CPPVideo>ov2680_cpp_video</CPPVideo>
+      <A3Preview>ov2680_a3_default_preview</A3Preview>
+      <A3Video>ov2680_a3_default_video</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="2">
+      <ISPPreview>ov2680_hfr_60</ISPPreview>
+      <ISPSnapshot>ov2680_hfr_60</ISPSnapshot>
+      <ISPVideo>ov2680_hfr_60</ISPVideo>
+      <CPPVideo>ov2680_cpp_hfr_60</CPPVideo>
+      <A3Preview>ov2680_a3_hfr_60</A3Preview>
+      <A3Video>ov2680_a3_hfr_60</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

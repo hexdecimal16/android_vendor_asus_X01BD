@@ -1,5 +1,5 @@
 <!--
-  Copyright (c) 2017 Qualcomm Technologies, Inc.
+  Copyright (c) 2016 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -79,30 +79,43 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>gc5025_ofilm_13m_common</ISPCommon>
-      <PostProc>gc5025_ofilm_13m_postproc</PostProc>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="FLASH">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
+      <ISPCommon>gc8034_kingcome_ares_common</ISPCommon>
+      <PostProc>gc8034_kingcome_ares_postproc</PostProc>
+      <CPPPreview>gc8034_kingcome_ares_cpp_preview</CPPPreview>
+      <CPPSnapshot>gc8034_kingcome_ares_cpp_snapshot</CPPSnapshot>
+      <CPPLiveshot>gc8034_kingcome_ares_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
     <ChromatixName special_mode_mask="ZOOM_UPSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_us_chromatix</CPPSnapshot>
+      <CPPSnapshot>gc8034_kingcome_ares_cpp_us_chromatix</CPPSnapshot>
     </ChromatixName>
     <ChromatixName special_mode_mask="ZOOM_DOWNSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_ds_chromatix</CPPSnapshot>
+      <CPPSnapshot>gc8034_kingcome_ares_cpp_ds_chromatix</CPPSnapshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>gc5025_ofilm_13m_snapshot</ISPPreview>
-      <ISPSnapshot>gc5025_ofilm_13m_snapshot</ISPSnapshot>
-      <ISPVideo>gc5025_ofilm_13m_video_full</ISPVideo>
-      <CPPPreview>gc5025_ofilm_13m_cpp_snapshot</CPPPreview>
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>gc5025_ofilm_13m_cpp_video_full</CPPVideo>
-      <CPPLiveshot>gc5025_ofilm_13m_cpp_snapshot</CPPLiveshot>
-      <A3Preview>gc5025_ofilm_13m_zsl_preview_bu64297</A3Preview>
-      <A3Video>gc5025_ofilm_13m_zsl_video_bu64297</A3Video>
+      <ISPPreview>gc8034_kingcome_ares_snapshot</ISPPreview>
+      <ISPSnapshot>gc8034_kingcome_ares_snapshot</ISPSnapshot>
+      <ISPVideo>gc8034_kingcome_ares_default_video</ISPVideo>
+      <CPPVideo>gc8034_kingcome_ares_cpp_video</CPPVideo>
+      <A3Preview>gc8034_kingcome_ares_zsl_preview_3a</A3Preview>
+      <A3Video>gc8034_kingcome_ares_zsl_video_3a</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1">
+      <ISPPreview>gc8034_kingcome_ares_snapshot</ISPPreview>
+      <ISPSnapshot>gc8034_kingcome_ares_snapshot</ISPSnapshot>
+      <ISPVideo>gc8034_kingcome_ares_default_video</ISPVideo>
+      <CPPVideo>gc8034_kingcome_ares_cpp_video</CPPVideo>
+      <A3Preview>gc8034_kingcome_ares_zsl_preview_3a</A3Preview>
+      <A3Video>gc8034_kingcome_ares_zsl_video_3a</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="2">
+      <ISPPreview>gc8034_kingcome_ares_preview</ISPPreview>
+      <ISPSnapshot>gc8034_kingcome_ares_preview</ISPSnapshot>
+      <ISPVideo>gc8034_kingcome_ares_default_video</ISPVideo>
+      <CPPVideo>gc8034_kingcome_ares_cpp_video</CPPVideo>
+      <A3Preview>gc8034_kingcome_ares_default_preview_3a</A3Preview>
+      <A3Video>gc8034_kingcome_ares_default_video_3a</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>

@@ -78,32 +78,39 @@ special_mode_mask values:
 
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
-    <ChromatixName>
-      <ISPCommon>gc5025_ofilm_13m_common</ISPCommon>
-      <PostProc>gc5025_ofilm_13m_postproc</PostProc>
+    <ChromatixName special_mode_mask="0">
+      <ISPCommon>imx376_common</ISPCommon>
+      <PostProc>imx376_postproc</PostProc>
     </ChromatixName>
-    <ChromatixName special_mode_mask="FLASH">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
+    <ChromatixName special_mode_mask = "ZOOM_UPSCALE">
+      <CPPSnapshot>imx376_cpp_snapshot_upscale</CPPSnapshot>
     </ChromatixName>
-    <ChromatixName special_mode_mask="ZOOM_UPSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_us_chromatix</CPPSnapshot>
-    </ChromatixName>
-    <ChromatixName special_mode_mask="ZOOM_DOWNSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_ds_chromatix</CPPSnapshot>
+    <ChromatixName special_mode_mask = "ZOOM_DOWNSCALE">
+      <CPPSnapshot>imx376_cpp_snapshot_downscale</CPPSnapshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
-    <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>gc5025_ofilm_13m_snapshot</ISPPreview>
-      <ISPSnapshot>gc5025_ofilm_13m_snapshot</ISPSnapshot>
-      <ISPVideo>gc5025_ofilm_13m_video_full</ISPVideo>
-      <CPPPreview>gc5025_ofilm_13m_cpp_snapshot</CPPPreview>
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>gc5025_ofilm_13m_cpp_video_full</CPPVideo>
-      <CPPLiveshot>gc5025_ofilm_13m_cpp_snapshot</CPPLiveshot>
-      <A3Preview>gc5025_ofilm_13m_zsl_preview_bu64297</A3Preview>
-      <A3Video>gc5025_ofilm_13m_zsl_video_bu64297</A3Video>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
+      <ISPPreview>imx376_snapshot</ISPPreview>
+      <ISPSnapshot>imx376_snapshot</ISPSnapshot>
+      <ISPVideo>imx376_snapshot</ISPVideo>
+      <CPPPreview>imx376_cpp_preview</CPPPreview>
+      <CPPSnapshot>imx376_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>imx376_cpp_video</CPPVideo>
+      <CPPLiveshot>imx376_cpp_liveshot</CPPLiveshot>
+      <A3Preview>imx376_fullsize_preview_3a</A3Preview>
+      <A3Video>imx376_fullsize_video_3a</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
+      <ISPPreview>imx376_video_default</ISPPreview>
+      <ISPSnapshot>imx376_video_default</ISPSnapshot>
+      <ISPVideo>imx376_video_default</ISPVideo>
+      <CPPPreview>imx376_cpp_preview</CPPPreview>
+      <CPPSnapshot>imx376_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>imx376_cpp_video_default</CPPVideo>
+      <CPPLiveshot>imx376_cpp_liveshot</CPPLiveshot>
+      <A3Preview>imx376_default_preview_3a</A3Preview>
+      <A3Video>imx376_default_video_3a</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
-

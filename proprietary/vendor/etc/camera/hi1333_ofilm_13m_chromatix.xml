@@ -79,30 +79,41 @@ special_mode_mask values:
 <ChromatixConfigurationRoot>
   <CommonChromatixInfo>
     <ChromatixName>
-      <ISPCommon>gc5025_ofilm_13m_common</ISPCommon>
-      <PostProc>gc5025_ofilm_13m_postproc</PostProc>
+      <ISPCommon>hi1333_ofilm_13m_common</ISPCommon>
+      <PostProc>hi1333_ofilm_13m_postproc</PostProc>
     </ChromatixName>
     <ChromatixName special_mode_mask="FLASH">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
+      <CPPSnapshot>hi1333_ofilm_13m_cpp_snapshot</CPPSnapshot>
     </ChromatixName>
     <ChromatixName special_mode_mask="ZOOM_UPSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_us_chromatix</CPPSnapshot>
+      <CPPSnapshot>hi1333_ofilm_13m_cpp_us_chromatix</CPPSnapshot>
     </ChromatixName>
     <ChromatixName special_mode_mask="ZOOM_DOWNSCALE">
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_ds_chromatix</CPPSnapshot>
+      <CPPSnapshot>hi1333_ofilm_13m_cpp_ds_chromatix</CPPSnapshot>
     </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0">
-      <ISPPreview>gc5025_ofilm_13m_snapshot</ISPPreview>
-      <ISPSnapshot>gc5025_ofilm_13m_snapshot</ISPSnapshot>
-      <ISPVideo>gc5025_ofilm_13m_video_full</ISPVideo>
-      <CPPPreview>gc5025_ofilm_13m_cpp_snapshot</CPPPreview>
-      <CPPSnapshot>gc5025_ofilm_13m_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>gc5025_ofilm_13m_cpp_video_full</CPPVideo>
-      <CPPLiveshot>gc5025_ofilm_13m_cpp_snapshot</CPPLiveshot>
-      <A3Preview>gc5025_ofilm_13m_zsl_preview_bu64297</A3Preview>
-      <A3Video>gc5025_ofilm_13m_zsl_video_bu64297</A3Video>
+      <ISPPreview>hi1333_ofilm_13m_snapshot</ISPPreview>
+      <ISPSnapshot>hi1333_ofilm_13m_snapshot</ISPSnapshot>
+      <ISPVideo>hi1333_ofilm_13m_video_full</ISPVideo>
+      <CPPPreview>hi1333_ofilm_13m_cpp_preview</CPPPreview>
+      <CPPSnapshot>hi1333_ofilm_13m_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>hi1333_ofilm_13m_cpp_video_full</CPPVideo>
+      <CPPLiveshot>hi1333_ofilm_13m_cpp_snapshot</CPPLiveshot>
+      <A3Preview>hi1333_ofilm_13m_zsl_preview_bu64297</A3Preview>
+      <A3Video>hi1333_ofilm_13m_zsl_video_bu64297</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1">
+      <ISPPreview>hi1333_ofilm_13m_snapshot</ISPPreview>
+      <ISPSnapshot>hi1333_ofilm_13m_snapshot</ISPSnapshot>
+      <ISPVideo>hi1333_ofilm_13m_video_full</ISPVideo>
+      <CPPPreview>hi1333_ofilm_13m_cpp_preview</CPPPreview>
+      <CPPSnapshot>hi1333_ofilm_13m_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>hi1333_ofilm_13m_cpp_video_full</CPPVideo>
+      <CPPLiveshot>hi1333_ofilm_13m_cpp_snapshot</CPPLiveshot>
+      <A3Preview>hi1333_ofilm_13m_zsl_preview_bu64297</A3Preview>
+      <A3Video>hi1333_ofilm_13m_zsl_video_bu64297</A3Video>
     </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
