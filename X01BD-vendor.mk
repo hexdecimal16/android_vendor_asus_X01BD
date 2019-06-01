@@ -1445,7 +1445,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/asus/X01BD/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
-    vendor/asus/X01BD/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/asus/X01BD/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/asus/X01BD/proprietary/vendor/radio/upgrade/qcril_database/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/upgrade/qcril_database/0_initial.sql \
+    vendor/asus/X01BD/proprietary/vendor/radio/upgrade/qcril_database/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/upgrade/qcril_database/1_version_intro.sql \
+    vendor/asus/X01BD/proprietary/vendor/radio/upgrade/qcril_database/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/upgrade/qcril_database/2_version_add_wps_config.sql \
+    vendor/asus/X01BD/proprietary/vendor/radio/upgrade/qcril_database/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/upgrade/qcril_database/3_version_update_wps_config.sql
 
 PRODUCT_PACKAGES += \
     libantradio \
