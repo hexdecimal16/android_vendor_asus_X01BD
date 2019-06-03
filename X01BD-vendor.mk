@@ -486,7 +486,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/asus/X01BD/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
     vendor/asus/X01BD/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
-    vendor/asus/X01BD/proprietary/vendor/firmware/msadp:$(TARGET_COPY_OUT_VENDOR)/firmware/msadp \
     vendor/asus/X01BD/proprietary/vendor/firmware/novatek_ts_fw_v8C.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_v8C.bin \
     vendor/asus/X01BD/proprietary/vendor/firmware/novatek_ts_fw_v8D.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_v8D.bin \
     vendor/asus/X01BD/proprietary/vendor/firmware/novatek_ts_fw_v84.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_v84.bin \
