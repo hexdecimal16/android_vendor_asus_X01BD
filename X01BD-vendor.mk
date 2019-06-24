@@ -343,7 +343,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov13850_q13v06k_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_q13v06k_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov16880_qtech_front_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16880_qtech_front_chromatix.xml \
-    vendor/asus/X01BD/proprietary/vendor/etc/cameraov16885_holitech_16m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16885_holitech_16m_chromatix.xml \
+    vendor/asus/X01BD/proprietary/vendor/etc/camera/ov16885_holitech_16m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16885_holitech_16m_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/ov16885_ofilm_16m_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16885_ofilm_16m_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/s5k2l7_8953_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_8953_chromatix.xml \
     vendor/asus/X01BD/proprietary/vendor/etc/camera/s5k2l7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7_chromatix.xml \
